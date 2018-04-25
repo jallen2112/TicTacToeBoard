@@ -92,6 +92,12 @@ TEST(TicTacToeBoardTest, getPieceOOB)
 	ASSERT_TRUE(t.getPiece(4, 2) == Invalid);
 }
 
+TEST(TicTacToeBoardTest, getPieceOOB2)
+{
+        TicTacToeBoard t;
+	ASSERT_TRUE(t.getPiece(2, 4) == Invalid);
+}
+
 
 TEST(TicTacToeBoardTest, getOPieceF)
 {

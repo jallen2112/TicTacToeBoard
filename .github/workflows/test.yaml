@@ -5,14 +5,14 @@ on: [push, pull_request]
 
 jobs:
 
-  anything:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: failed
+#  anything:
+#
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#    - uses: actions/checkout@v2
+#    - name: Build the Docker image
+#      run: failed
 
   nothing:
 
